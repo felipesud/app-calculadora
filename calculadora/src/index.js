@@ -9,7 +9,7 @@ ReactDOM.render(
   <h1> Calculadora </h1>
 <Calculator />
 </div>,
-  document.getElementById('roots')
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
