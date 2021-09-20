@@ -29,20 +29,20 @@ constructor(props){
                 <Button label="AC" click={this.clearMemory} />
                 <Button label="/" click={this.setOperation} />
                 <Button label="7" click={this.addDigit} />
-                <Button label="8" />
-                <Button label="9" />
-                <Button label="*" />
-                <Button label="4" />
-                <Button label="5" />
-                <Button label="6" />
-                <Button label="-" />
-                <Button label="1" />
-                <Button label="2" />
-                <Button label="3" />
-                <Button label="+" />
-                <Button label="0" />
-                <Button label="." />
-                <Button label="=" />
+                <Button label="8" click={this.addDigit} />
+                <Button label="9" click={this.addDigit} />
+                <Button label="*" click={this.setOperation} />
+                <Button label="4" click={this.addDigit} />
+                <Button label="5" click={this.addDigit} />
+                <Button label="6" click={this.addDigit} />
+                <Button label="-" click={this.setOperation} />
+                <Button label="1" click={this.addDigit} />
+                <Button label="2" click={this.addDigit} />
+                <Button label="3" click={this.addDigit} />
+                <Button label="+" click={this.setOperation} />
+                <Button label="0" click={this.addDigit} />
+                <Button label="." click={this.addDigit} />
+                <Button label="=" click={this.setOperation} />
 
             </div>
         )
